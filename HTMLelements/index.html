@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Demo</title>
+
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        form {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Semantic Header -->
+    <header>
+        <h1>HTML Elements Demonstration</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Form -->
+    <section>
+
+        <h2>Registration Form</h2>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text"><br><br>
+
+            <label>Email:</label>
+            <input type="email"><br><br>
+
+            <label>Password:</label>
+            <input type="password"><br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+
+            <br><br>
+
+            <label>Skills:</label>
+
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript
+
+            <br><br>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- Table -->
+    <section>
+
+        <h2>Student Table</h2>
+
+        <table>
+
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Course</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Navya</td>
+                <td>CSE</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Rahul</td>
+                <td>IT</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- Media -->
+    <section>
+
+        <h2>Media Elements</h2>
+
+        <img src="https://via.placeholder.com/200"
+             alt="Sample Image">
+
+        <br><br>
+
+        <audio controls>
+            <source src="sample.mp3" type="audio/mp3">
+        </audio>
+
+        <br><br>
+
+        <video width="300" controls>
+            <source src="sample.mp4" type="video/mp4">
+        </video>
+
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>ESD Practical Example</p>
+    </footer>
+
+</body>
+
+</html>
